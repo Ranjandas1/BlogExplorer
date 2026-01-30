@@ -78,7 +78,7 @@ blog-explorer/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/blog-explorer.git
+   git clone [https://github.com/your-username/blog-explorer.git](https://github.com/Ranjandas1/BlogExplorer)
    cd blog-explorer
    ```
 
