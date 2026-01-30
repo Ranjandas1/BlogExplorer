@@ -10,7 +10,12 @@ export default function CategoryFilter({
 }: CategoryFilterProps) {
   return (
     <div className="flex items-center gap-2">
+      <label htmlFor="category-select" className="sr-only">
+        Select Category
+      </label>
+
       <select
+        id="category-select"
         value={selectedCategory ?? ""}
         onChange={(e) => onCategoryChange(e.target.value || null)}
         className="border border-gray-300 text-sm rounded-md px-3 py-2 text-gray-800
